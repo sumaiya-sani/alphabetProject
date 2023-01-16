@@ -16,7 +16,14 @@
     <style name="NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+
+
     </style>
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Them.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
 </resources>
